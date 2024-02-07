@@ -81,19 +81,17 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 .weather-forecast {
-  font-size: 13px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
 }
-.weather-forcast-date {
+.weather-forecast-date {
+  font-size: 16px;
   color: rgba(39, 33, 66, 0.5);
 }
+.weather-forecast-icon {
+  font-size: 44px;
+}
 .weather-forecast-temperature-min {
-  opacity: 0.5;
-}
-.weather-forecast-temperature {
-  text-align: ;
-  font-size: 16px;
-}
-img {
-  text-align: left;
-  margin: 0 auto;
+  color: rgba(39, 33, 66, 0.5);
 }
